@@ -103,7 +103,7 @@ header nav a:last-child {
     background-image: url('form/thumbnail.png');
 }
 .projects .project .thumbnail.table {
-    background-image: url('table/thumbnail.png');
+    background-image: url('table-of-a-number/thumbnail.png');
 }
 .projects .project .info {
     display: flex;
