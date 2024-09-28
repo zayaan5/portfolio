@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    color:red;
+    text-transform: uppercase;
+    
+}
+form{
+    background-color: rgb(244, 241, 241);
+    max-width: 300px;
+    margin: 50px auto 0 ;
+    padding: 14px;
+}
+form div{
+    display: flex;
+}
+form div input {
+    flex: 1;
+    margin-right: 18px ;
+}
+form table{
+    width: 140px;
+    margin: 20px auto 0;
+    border-collapse: collapse;
+
+}
+form table td{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 4px 10px;
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    color:red;
+    text-transform: uppercase;
+    
+}
+.wrapper{
+    background-color: rgb(244, 241, 241);
+    max-width: 300px;
+    margin: 50px auto 0 ;
+    padding: 14px;
+}
+.wrapper .top{
+    display: flex;
+}
+.wrapper .top input {
+    flex: 1;
+    margin-right: 18px ;
+}
+.wrapper table{
+    width: 140px;
+    margin: 20px auto 0;
+    border-collapse: collapse;
+
+}
+.wrapper table td{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 4px 10px;
+    text-align: center;
+}
