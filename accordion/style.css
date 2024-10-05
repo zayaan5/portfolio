@@ -1,0 +1,59 @@
+  h1 {
+    text-align: center;
+  }
+
+  .wrapper {
+    max-width: 400px;
+    /* background-color: yellow; */
+    margin: 40px auto;
+  }
+
+  div {
+    margin-bottom: 15px;
+  }
+
+  h2,
+  p {
+    margin: 0;
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+  h2 {
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h2:hover {
+    cursor: pointer;
+    background-color: yellow;
+  }
+
+  p {
+    border-top: 0;
+    display: none;
+  }
+
+  .plus,
+  .minus {
+    width: 16px;
+  }
+
+  .minus {
+    display: none;
+  }
+
+  h2.active {
+    background-color: yellow;
+  }
+
+  h2.active .plus {
+    display: none;
+  }
+
+  h2.active .minus,
+  h2.active + p {
+    display: block;
+  }
