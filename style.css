@@ -109,13 +109,13 @@ header nav a:last-child {
     background-image: url('accordion/thumbnail.png');
 }
 .projects .project .thumbnail.todo-list {
-    background-image: url('todo-list/tumbnail..png');
+    background-image: url('todo-list/thumbnail.png');
 }
 .projects .project .thumbnail.tip-calculator {
     background-image: url('tip-calculator/thumbnail.png');
 }
 .projects .project .thumbnail.age-calculator {
-    background-image: url('age-calculator/thumnail..png');
+    background-image: url('age-calculator/thumbnail.png');
 }
 .projects .project .thumbnail.table-of-a-number {
     background-image: url('table-of-a-number/thumbnail.png');
