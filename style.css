@@ -120,6 +120,10 @@ header nav a:last-child {
 .projects .project .thumbnail.pricing-table {
     background-image: url('pricing-table/thumbnail.png');
 }
+.projects .project .thumbnail.website {
+    background-image: url('website/thumbnail.png');
+}
+
 .projects .project .info {
     display: flex;
     border-top: 1px solid grey;
