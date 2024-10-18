@@ -1,0 +1,86 @@
+/* common */
+* {
+    box-sizing: border-box;
+  }
+  .m0 {
+    margin: 0;
+  }
+  .wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    /* background-color: orange; */
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* header */
+  header {
+    background-color: rgb(237, 237, 237);
+  }
+  header h1 {
+    font-size: 20px;
+  }
+  header a {
+    background-color: orange;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+  
+  /* achievements */
+  .achievements {
+    padding: 100px 0;
+  }
+  .achievements h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .achievements .box {
+    background-color: antiquewhite;
+    border-radius: 16px;
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+  }
+  .achievements .box img {
+    width: 70%;
+  }
+  .achievements .box h2 {
+    margin: 20px 0 0;
+    font-size: 14px;
+  }
+  
+  /* webinar */
+  .webinar {
+    background: linear-gradient(red, rgb(166, 0, 255));
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  .webinar img {
+    width: 50px;
+    transform: scale(2);
+    margin-top: -41px;
+  }
+  .webinar a {
+    background-color: white;
+    color: orange;
+    padding: 8px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+  
+  /* footer */
+  footer {
+    background-color: rgb(221, 221, 221);
+    margin-bottom: 57px;
+    padding: 50px 0;
+  }
+  footer h1 {
+    font-size: 20px;
+  }

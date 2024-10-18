@@ -117,8 +117,8 @@ header nav a:last-child {
 .projects .project .thumbnail.age-calculator {
     background-image: url('age-calculator/thumbnail.png');
 }
-.projects .project .thumbnail.table-of-a-number {
-    background-image: url('table-of-a-number/thumbnail.png');
+.projects .project .thumbnail.pricing-table {
+    background-image: url('pricing-table/thumbnail.png');
 }
 .projects .project .info {
     display: flex;
