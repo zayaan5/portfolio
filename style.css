@@ -123,6 +123,9 @@ header nav a:last-child {
 .projects .project .thumbnail.website {
     background-image: url('website/thumbnail.png');
 }
+.projects .project .thumbnail.testimonial-slider {
+    background-image: url('testimonial-slider/thumbnail.png');
+}
 
 .projects .project .info {
     display: flex;
